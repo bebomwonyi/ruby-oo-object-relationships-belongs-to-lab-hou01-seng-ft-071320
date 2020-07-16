@@ -1,2 +1,6 @@
 class Song
-  attr_accessor :song 
+  attr_accessor :title
+  def title
+    @title
+  end
+end
